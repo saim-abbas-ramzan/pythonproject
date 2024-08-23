@@ -14,4 +14,4 @@ class toyotacar(car):
         self.name = name
 c1 = toyotacar("fortunare")
 c2 = toyotacar("BMW")
-print(c1.name)
+prinit(c1.name)
