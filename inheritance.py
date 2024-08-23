@@ -1,5 +1,5 @@
 class car:
-    colour = "red"
+    colour = "black"
     @staticmethod
     def start():
         print("car started..")
@@ -16,7 +16,7 @@ print(car2.brand)
 
 #multi level
 class car:
-    colour = "red"
+    colour = "blue"
     @staticmethod
     def start():
         print("car started..")
@@ -34,11 +34,11 @@ print(car1.type)
 
 #multiple level
 class a:
-    vara = "welcome to class a"
+    vara = "welcome to class is a"
 class b:
-    varb = "welcome to class b"
+    varb = "welcome to class is b"
 class c(a, b):
-    varc = "welcome to class c"
+    varc = "welcome to class is c"
 c1 = c()
 print(c1.vara)
 print(c1.varb)
