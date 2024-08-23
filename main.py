@@ -13,5 +13,5 @@ class toyotacar(car):
     def __init__(self,name):
         self.name = name
 c1 = toyotacar("fortunare")
-c2 = toyotacar("BMW")
+c2 = toyotacar("4X4")
 print(c2.name)
